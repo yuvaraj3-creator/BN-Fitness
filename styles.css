@@ -114,3 +114,23 @@ footer{border-top:1px solid #e1e3e7;padding:28px 0;color:#7b818c;font-size:11px;
 .red-one,.red-two{opacity:.6}.red-one{right:5%;width:85px}.red-two{right:-10%;width:100px}
 .foot{display:block}.foot span{display:block;margin:7px 0}.gallery-actions{display:grid}.gallery-actions .btn{width:100%;text-align:center}
 }
+
+/* Contact page mobile layout */
+@media(max-width:900px){
+  .contact-page .page{padding:48px 0}
+  .contact-page .split{grid-template-columns:1fr;gap:28px}
+  .contact-page .split h2{font-size:58px}
+  .contact-page .form{width:100%}
+  .contact-page .actions{display:flex;flex-wrap:wrap;gap:10px}
+  .contact-page .actions .btn{flex:1 1 140px;text-align:center}
+  .contact-page .map{height:360px}
+}
+@media(max-width:560px){
+  .contact-page .page{padding:42px 0}
+  .contact-page .split h2{font-size:50px}
+  .contact-page .split p{font-size:14px;line-height:1.75}
+  .contact-page .actions{display:grid;grid-template-columns:1fr}
+  .contact-page .actions .btn{width:100%}
+  .contact-page .form input,.contact-page .form select,.contact-page .form textarea{font-size:14px;padding:14px}
+  .contact-page .map{height:300px}
+}
