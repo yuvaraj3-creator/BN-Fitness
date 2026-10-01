@@ -41,11 +41,13 @@ a{color:inherit;text-decoration:none}
 .red-one{right:17%;top:-18%;width:150px;height:145%;background:rgba(239,27,36,.92)}
 .red-two{right:-2%;top:43%;width:180px;height:90%;background:rgba(239,27,36,.88)}
 .hero-features{display:flex;gap:0;margin-top:48px;max-width:730px!important}
-.hero-features span{min-width:145px;padding:0 20px;border-right:1px solid #e2e4e8;font-size:14px;color:#101114;display:grid;grid-template-columns:38px 1fr;align-items:center}
-.hero-features span:first-child{padding-left:0}
-.hero-features span:last-child{border:0}
-.hero-features b{font-size:14px;margin-left:7px}
-.hero-features small{display:block;margin-left:34px;margin-top:-3px;font-size:12px;color:#20242a}
+.hero-features>span{min-width:145px;padding:0 20px;border-right:1px solid #e2e4e8;font-size:14px;color:#101114;display:flex;align-items:center;gap:8px}
+.hero-features>span:first-child{padding-left:0}
+.hero-features>span:last-child{border:0}
+.feature-icon{width:30px;height:30px;display:grid;place-items:center;font-style:normal;font-size:20px;color:#111;flex:0 0 30px}
+.feature-text{display:flex;flex-direction:column;gap:1px}
+.hero-features b{font-size:11px;line-height:1.1;margin:0;white-space:nowrap}
+.hero-features small{display:block;margin:0;font-size:10px;line-height:1.1;color:#20242a;white-space:nowrap}
 .page{padding:78px 0}
 .head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:35px}
 .head h2,.split h2,.cta h2{font:58px/.85 'Bebas Neue';margin:0;color:#0b0c0f}
