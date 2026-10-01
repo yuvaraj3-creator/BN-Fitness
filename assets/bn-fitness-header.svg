@@ -1,21 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-label="BN FITNESS — Train Transform Repeat">
-<defs>
- <linearGradient id="silver" x1="0" x2="1"><stop offset="0" stop-color="#bfc2c6"/><stop offset=".5" stop-color="#fff"/><stop offset="1" stop-color="#9fa3a8"/></linearGradient>
-</defs>
-<g transform="translate(18 18)">
- <circle cx="132" cy="132" r="120" fill="#101114" stroke="#ed111b" stroke-width="8"/>
- <g stroke="url(#silver)" stroke-width="10" stroke-linecap="round">
-  <path d="M76 72h112"/><path d="M68 60v24M58 64v16M198 60v24M208 64v16"/>
+<rect width="1200" height="300" fill="#fff"/>
+<g transform="translate(20 20)">
+ <circle cx="130" cy="130" r="116" fill="#fff" stroke="#e21b23" stroke-width="7"/>
+ <g fill="#111">
+  <rect x="72" y="48" width="116" height="10" rx="5"/>
+  <rect x="62" y="36" width="10" height="34" rx="4"/><rect x="50" y="41" width="9" height="24" rx="4"/>
+  <rect x="188" y="36" width="10" height="34" rx="4"/><rect x="201" y="41" width="9" height="24" rx="4"/>
+  <text x="43" y="157" font-family="Arial Black,Arial,sans-serif" font-size="82" font-weight="900">B</text>
+  <path d="M112 92h40l-17 25 23 31-26-18-21 18 16-31z" fill="#e21b23"/>
+  <path d="M136 84c6-8 15-9 21-3 6 7 3 15-2 21l-7 10h-18l-4-10c-3-7 3-14 10-18z"/>
+  <path d="M121 116c9-8 20-8 30 0l9 31h-48z"/>
  </g>
- <text x="45" y="165" font-family="Arial Black,Arial,sans-serif" font-size="82" font-weight="900" fill="#fff">BN</text>
- <path d="M124 108c10-15 25-18 33-7 8 11 2 23-7 31l-9 13h-20l-7-13c-6-10 0-18 10-24z" fill="#fff"/>
- <path d="M109 151c8-15 18-22 28-22s20 7 28 22l-8 10h-40z" fill="#fff"/>
- <text x="51" y="202" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="800" letter-spacing="6" fill="#fff">FITNESS</text>
+ <text x="47" y="196" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="900" letter-spacing="5" fill="#111">FITNESS</text>
 </g>
-<text x="295" y="145" font-family="Arial Black,Arial,sans-serif" font-size="92" font-weight="900" fill="#111">BN</text>
-<text x="495" y="145" font-family="Arial Black,Arial,sans-serif" font-size="92" font-weight="900" fill="#ed111b">FITNESS</text>
-<g fill="#111" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="800" letter-spacing="7">
- <text x="420" y="205">TRAIN</text><text x="585" y="205">TRANSFORM</text><text x="845" y="205">REPEAT</text>
+<text x="290" y="143" font-family="Arial Black,Arial,sans-serif" font-size="91" font-weight="900" fill="#111">BN</text>
+<text x="493" y="143" font-family="Arial Black,Arial,sans-serif" font-size="91" font-weight="900" fill="#e21b23">FITNESS</text>
+<g fill="#111" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="800" letter-spacing="6">
+ <text x="410" y="202">TRAIN</text><text x="575" y="202">TRANSFORM</text><text x="840" y="202">REPEAT</text>
 </g>
-<path d="M295 200h90M1080 200h85" stroke="#111" stroke-width="4"/>
+<path d="M290 197h88M1080 197h88" stroke="#111" stroke-width="4"/>
 </svg>
